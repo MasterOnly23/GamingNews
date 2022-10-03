@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming News</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- <script src="https://kit.fontawesome.com/d85809882f.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/92f8563289.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body-margen">
+    <header>
+        <div class="logo-title navbar-dark bg-dark">
+            <a class="navbar-brand" href="#header"><img src="logo-joestick.png" alt="logo_blog" width="60" height="40" class="d-inline-block align-text-top"><span><h1 class="title"> Gaming News</h1></span></a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Juegos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">FIFA 23</a></li>
+                      <li><a class="dropdown-item" href="#">League of Legends</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="#">CoD Warzone</a></li>
+                      <li><a class="dropdown-item" href="#">Fornite</a></li>
+                      <li><a class="dropdown-item" href="#">Guild Wars 2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Guias</a>
+                </li>
+                </ul>
+                <li class="nav-item dropdown  me-auto mb-2 mb-lg-0 user-icon">
+                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="user-interface.png" alt="user-interface" width="45" height="45" class="d-inline-block align-text-top">
+                      
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                    </ul>
+                </li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- {% block content %} // cards boostrap 1. cards-group 2. card-deks-->
+    <main class="main-content">
+        <section>
+
+            <div class="card-deck">
+                <a href="#" class="card-link">
+                    <div class="card">
+                            <img class="card-img-top" src="fifa23.jpeg" alt="Card image cap" width="250" height="350">
+                        <div class="card-body">
+                        <h5 class="card-title">Lanzamiento de FIFA 23</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </a>
+                <div class="card">
+                  <img class="card-img-top" src="https://picsum.photos/120/120" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+
+
+                <div class="card-group">
+                    <div class="card carta1" style="width: 18rem;">
+                        <img class="card-img-top" src="https://picsum.photos/120/120" alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                    <div class="card carta2" style="width: 18rem;">
+                        <img class="card-img-top" src="https://picsum.photos/120/120" alt="Card image cap">
+                        <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+
+        </section>
+
+
+    </main>
+    <!-- {% endblock %} -->
+
+    <footer class="footer-blog">
+        <div class="footer-container1">
+            <div class="footer-box">
+                <div class="footer-link">
+                <a href="index.html">
+                    <img src="logo-joestick.png" alt="logo_blog" width="25" height="15">
+                    <span class="footer-title">Gaming News</span>
+                </a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>SOBRE MI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="footer-box">
+                <h2 class="sigueme">SIGUEME</h2>
+                <div class="redes-sociales">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-github"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-container2">
+            <small>&copy; 2022</small>
+        </div>
+    </footer>
+    <script src="bootstrap.min.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
